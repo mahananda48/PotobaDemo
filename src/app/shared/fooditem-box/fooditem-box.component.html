@@ -1,0 +1,14 @@
+<div class="foodie-box-outer-wrapper">
+  <div class="card mb-3">
+    <img src="../../../assets/images/{{ fooddetail.imagepath && fooddetail.imagepath !='' ? fooddetail.imagepath : 'default.jpg'}}" class="card-img-top" alt="">
+    <div class="card-body">
+        <h5 class="card-title">{{ fooddetail.name }} </h5> <span>&#8377; {{ fooddetail.price }}</span>
+        <p class="card-text">{{ fooddetail.description }}</p>
+    </div>
+    <div class="card-footer">
+      <button class="btn " (click)="addToCart(fooddetail)">+</button> 
+      <span class="quantity">{{ fooddetail.quantity }}</span>
+      <button class="float-right btn" [disabled]="fooddetail.quantity<1" (click)="removeFromCart(fooddetail)">-</button>
+    </div>
+  </div>
+</div>

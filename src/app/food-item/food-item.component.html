@@ -1,0 +1,14 @@
+<div class="food-items-wrapper container">
+  <div class="sub-header">
+    <div class="sub-header-title-wrapper">
+      <h4>Lets go foodies......</h4>
+    </div>
+    <div class="food-items-box-container">
+      <div class="row">
+          <div *ngFor="let fooditem of foodItems" class="card-group">
+            <app-fooditem-box (onAdd)="getItemToAdd($event)" (onRemove)="getItemToRemove($event)" [fooddetail]="fooditem"></app-fooditem-box>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

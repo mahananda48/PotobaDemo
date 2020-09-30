@@ -1,0 +1,172 @@
+{
+  "userlogin": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "contact": "9898989898",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user",
+      "contact": "9898989800",
+      "isActive": true
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": 1,
+      "category": "Maharastrian",
+      "description": "Chapati, Rice, Puri, Veg",
+      "imagepath": "",
+      "isActive": true
+    },
+    {
+      "categoryId": 2,
+      "category": "Pizza",
+      "description": "Cheese, Mashroom, Chicken",
+      "imagepath": "",
+      "isActive": true
+    },
+    {
+      "categoryId": 3,
+      "category": "Drinks",
+      "description": "Coldrinks/ Softdrinks",
+      "imagepath": "",
+      "isActive": true
+    },
+    {
+      "categoryId": 4,
+      "category": "Snacks",
+      "description": "Idali, Dosa, Samosa, Poha",
+      "imagepath": "",
+      "isActive": true
+    },
+    {
+      "categoryId": 5,
+      "category": "Indori",
+      "description": "Poha, Kachori, Jalebi",
+      "imagepath": "",
+      "isActive": true
+    },
+    {
+      "categoryId": 6,
+      "category": "Street Food",
+      "description": "Pav bhaji, Pakoda",
+      "imagepath": "",
+      "isActive": true
+    }
+  ],
+  "fooditems": [
+    {
+      "itemId": 1,
+      "categoryId": 2,
+      "name": "Cheese Pizza",
+      "description": "A classic delight with 100% Real mozzarella cheese",
+      "price": 149,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 2,
+      "categoryId": 2,
+      "name": "Veg Delight Pizza",
+      "description": "Delectable combination of onion & capsicum, a veggie lovers pick",
+      "price": 200,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 3,
+      "categoryId": 2,
+      "name": "Chicken Pizza",
+      "description": "Double pepper barbecue chicken, golden corn and extra cheese, true delight",
+      "price": 260,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 4,
+      "categoryId": 2,
+      "name": "Mashroom-Corn Pizza",
+      "description": "Mushroom & baby corn, green capsicum, red capsicum",
+      "price": 149,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 5,
+      "categoryId": 1,
+      "name": "Daal Tadka",
+      "description": "Dal served with tadka of green chilli, lasun and garnished with coriander",
+      "price": 120,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 6,
+      "categoryId": 1,
+      "name": "Plain Rice",
+      "description": "Steamed white rice",
+      "price": 100,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 7,
+      "categoryId": 1,
+      "name": "Veg Thali",
+      "description": "1 bajra bhakari + 1 bhaji / sabji sukhi / rassa (as per availability) + sadha pandhra bhat + fodnicha varan.",
+      "price": 250,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 8,
+      "categoryId": 1,
+      "name": "Non-Veg Thali",
+      "description": "Chicken rasa(5 piece), chicken fry(5 piece), sukat chatni, 2 bhakri or 3 chapati, indrayani rice.",
+      "price": 300,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 9,
+      "categoryId": 3,
+      "name": "Coke",
+      "description": "500 ml cold coca cola",
+      "price": 30,
+      "imagepath": "img-01.jpg",
+      "isAvailable": true
+    },
+    {
+      "itemId": 10,
+      "categoryId": 3,
+      "name": "Ginger Ale",
+      "description": "250 ml cold ginger ale",
+      "price": 25,
+      "imagepath": "img-02.jpg",
+      "isAvailable": true
+    },
+    {
+      "itemId": 11,
+      "categoryId": 4,
+      "name": "Samosa",
+      "description": "2 samosas with green chuttney",
+      "price": 30,
+      "imagepath": "",
+      "isAvailable": true
+    },
+    {
+      "itemId": 12,
+      "categoryId": 4,
+      "name": "Idli + dosa combo",
+      "description": "2 hot idalies + 1 paper dosa served with coconut chuttney and sambar",
+      "price": 70,
+      "imagepath": "",
+      "isAvailable": true
+    }
+  ]
+}

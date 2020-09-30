@@ -1,0 +1,39 @@
+.order-wrapper{
+    padding: 80px 20px 20px 20px;
+    color: #ffffff;
+    background-color: #ffffff4f;
+    text-align: center;
+    height: 50rem;
+}
+img{
+    width: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    opacity: 0.9;
+}
+.card {
+    background-color: #ffffff4f;
+    width: 50rem;
+    padding-top: 10px;
+}
+table{
+    color: #ffffff;
+}
+.button-orange {
+    margin-top: 10px;
+    color: white;
+    background-color:#fc8019;
+    border-color:#fc8019;
+    width: 25%;
+    padding: 15px;
+    margin-left: 15px;
+}
+.action-button {
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.card-body {
+    overflow-y: scroll;
+    height: 18rem;
+}

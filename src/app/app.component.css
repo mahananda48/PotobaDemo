@@ -1,0 +1,9 @@
+.potoba-app-wrapper {
+    background-image: url('../assets/images/bg_2.jpg');
+    background-color: #cccccc;
+    min-height: 590px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
